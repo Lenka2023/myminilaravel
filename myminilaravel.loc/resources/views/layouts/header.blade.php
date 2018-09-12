@@ -21,6 +21,7 @@
         </div>
     <script type="text/javascript" src="{{URL::asset('myjs/jquery-1.12.2.min.js')}}"></script>
     <script type="text/javascript" src="{{URL::asset('myjs/jquery.js')}}"></script>
-	<script type="text/javascript" src="{{URL::asset('myjs/script.js')}}"></script>
+	<script type="text/javascript" src="{{URL::asset('js/script.js')}}"></script>
+    <!--<script type="text/javascript" src="{{ URL::to('js/script.js') }}"></script>-->
     </body>
 </html>

@@ -465,7 +465,7 @@ var i = 0;
 var resultstr=[];
 	var stack=[];
 	function makeString(sourceStr,usl,bgind,darrms,answ,x,dt,mt,tpl,t,w,y,j,dtxtms,dnms){
-		alert("makeString");
+		//alert("makeString");
 		mt=mt;
 		dt=dt;
 		answ=answ;
@@ -1712,7 +1712,7 @@ var resultstr=[];
 				textarea=document.getElementById("text");
 				k=q+1;
 				var expressionText =  document.getElementById("text");
-				alert("closeTag");
+				//alert("closeTag");
 				
 				console.log( 'sourceStr:' +sourceStr);
 				console.log( 'resultStr:' +resultStr);
@@ -2798,7 +2798,7 @@ stack.pop();
 			
 			function makeCBTStringHtml(sourceStr){
 				//resultstr.pop();
-				alert(" makeCBTStringHtml");
+				//alert(" makeCBTStringHtml");
 		   textarea=document.getElementById("text");
 		    var expressionText=  document.getElementById("text").value; 
             document.getElementById("text").innerHTML = expressionText.replace(/\n/g, '<br>');
@@ -2993,7 +2993,7 @@ document.getElementById("RESULTHTML").contentEditable = true; void(0);
 
 			function CBT(usl,bgind)
             {
-             alert("CBT");  
+             //alert("CBT");  
             
             var textarea=document.getElementById("text");
             document.getElementById("text").focus();
@@ -3118,7 +3118,7 @@ document.getElementById("RESULTHTML").contentEditable = true; void(0);
 			}
 			function Red_title(usl,bgind)
 			{
-             alert("Red_title");
+             //alert("Red_title");
 var textarea=document.getElementById("text");
 document.getElementById("text").focus();
 expressionText =  document.getElementById("text").value;
@@ -3640,7 +3640,7 @@ redo = document.getElementById('redo');
 					var beginInd=0;
 			function Bold(usl,bgind)
             {
-             
+             alert("Bold");
              textarea=document.getElementById("text");
             document.getElementById("text").focus();
 			expressionText =( document.getElementById("text").value ); 
@@ -3678,7 +3678,7 @@ redo = document.getElementById('redo');
 			beginInd=beginIndex;
 			function Image(usl,bgind)
             {
-             alert("Image");
+            // alert("Image");
             var textarea=document.getElementById("text");
             document.getElementById("text").focus();
            expressionText =( document.getElementById("text").value ); 
@@ -3741,7 +3741,7 @@ redo = document.getElementById('redo');
 			}
 			function Txt(usl,bgind)
 			{
-			alert("Txt");
+			//alert("Txt");
 			
             var textarea=document.getElementById("text");
             document.getElementById("text").focus();
@@ -3778,7 +3778,7 @@ redo = document.getElementById('redo');
    x.innerHTML=y.innerHTML;
                         }  
 						var AggregateSelection = function(sourceArray){
-							 alert("AggregateSelection");
+							 //alert("AggregateSelection");
 		var indexesToRemove = new Set();
 		for (var i = 0; i < sourceArray.length; i++){
 		for (var j = 0; j < sourceArray.length; j++){
@@ -3809,7 +3809,7 @@ redo = document.getElementById('redo');
  //  11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111 
  
         function ChangeSelection(sourceStr){
-                            alert("ChangeSelection");
+                           // alert("ChangeSelection");
  
                  selectiontxt = (textarea.value).substring(textarea.selectionStart, textarea.selectionEnd);
                expressionText =( document.getElementById("text").value );
