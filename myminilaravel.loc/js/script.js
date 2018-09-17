@@ -3640,7 +3640,7 @@ redo = document.getElementById('redo');
 					var beginInd=0;
 			function Bold(usl,bgind)
             {
-             alert("Bold");
+            // alert("Bold");
              textarea=document.getElementById("text");
             document.getElementById("text").focus();
 			expressionText =( document.getElementById("text").value ); 

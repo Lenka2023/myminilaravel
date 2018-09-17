@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
 		
-		<link rel="stylesheet" href="{{URL::asset('mycss/style.css')}}">
+		<link rel="stylesheet" href="{{URL::asset('css/style.css')}}">
 		
         
         <!--[if lt IE 9]>
@@ -19,8 +19,8 @@
 	<div id="result">
         <span id="RESULTTEXT"></span>
         </div>
-    <script type="text/javascript" src="{{URL::asset('myjs/jquery-1.12.2.min.js')}}"></script>
-    <script type="text/javascript" src="{{URL::asset('myjs/jquery.js')}}"></script>
+    <script type="text/javascript" src="{{URL::asset('js/jquery-1.12.2.min.js')}}"></script>
+    <script type="text/javascript" src="{{URL::asset('js/jquery.js')}}"></script>
 	<script type="text/javascript" src="{{URL::asset('js/script.js')}}"></script>
     <!--<script type="text/javascript" src="{{ URL::to('js/script.js') }}"></script>-->
     </body>
