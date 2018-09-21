@@ -3640,7 +3640,7 @@ redo = document.getElementById('redo');
 					var beginInd=0;
 			function Bold(usl,bgind)
             {
-             
+            // alert("Bold");
              textarea=document.getElementById("text");
             document.getElementById("text").focus();
 			expressionText =( document.getElementById("text").value ); 
@@ -3678,7 +3678,7 @@ redo = document.getElementById('redo');
 			beginInd=beginIndex;
 			function Image(usl,bgind)
             {
-             //alert("Image");
+            // alert("Image");
             var textarea=document.getElementById("text");
             document.getElementById("text").focus();
            expressionText =( document.getElementById("text").value ); 
@@ -3809,7 +3809,7 @@ redo = document.getElementById('redo');
  //  11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111 
  
         function ChangeSelection(sourceStr){
-                            //alert("ChangeSelection");
+                           // alert("ChangeSelection");
  
                  selectiontxt = (textarea.value).substring(textarea.selectionStart, textarea.selectionEnd);
                expressionText =( document.getElementById("text").value );
